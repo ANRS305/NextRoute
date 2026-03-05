@@ -1,0 +1,38 @@
+#carouselId {
+  max-width: 70rem;
+  margin: auto;
+}
+
+#carouselId img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+  background-color: #0945ad;
+  border-color: #0945ad;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #073078;
+  border-color: #073078;
+}
+
+.card img {
+  height: 13rem;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.card-text {
+  color: #0d5ade;
+  font-weight: bold;
+  margin: 0;
+}

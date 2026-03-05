@@ -1,0 +1,41 @@
+.cabecario {
+  background-color: #0945ad;
+  display: flex;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+}
+
+.titulo {
+  color: #ffffff;
+  padding: 1.5rem 5.5rem;
+  font-weight: bolder;
+  font-family: "Merriweather", serif;
+  margin-right: 43rem;
+}
+
+.navbar {
+  background-color: #041f4e;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #b8babd;
+}
+
+.btn-success {
+  color: #ffffff;
+  border-color: #0945ad;
+  background-color: #0945ad;
+}
+
+.btn-success:hover,
+.btn-success:active {
+  background-color: #073078;
+  border-color: #073078;
+  color: #ffffff;
+}

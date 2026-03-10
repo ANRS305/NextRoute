@@ -1,41 +1,56 @@
-.cabecario {
-  background-color: #0945ad;
-  display: flex;
-  width: 100%;
-  height: 30%;
-  align-items: center;
-}
-
-.titulo {
-  color: #ffffff;
-  padding: 1.5rem 5.5rem;
-  font-weight: bolder;
-  font-family: "Merriweather", serif;
-  margin-right: 43rem;
-}
-
 .navbar {
-  background-color: #041f4e;
+  background-color: #FFFFFF;
+}
+
+img.logo {
+  height: 50px;
+  width: auto;
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #1B365D;
 }
 
-.nav-link:hover,
-.nav-link:active {
-  color: #b8babd;
+.nav-link:hover {
+  color: #2EB5C0;
 }
 
-.btn-success {
-  color: #ffffff;
-  border-color: #0945ad;
-  background-color: #0945ad;
+.btn{
+  background-color:#1B365D;
+  border-color: #1B365D;
+  color: #FFFFFF;
 }
 
-.btn-success:hover,
-.btn-success:active {
-  background-color: #073078;
-  border-color: #073078;
-  color: #ffffff;
+.btn:hover {
+  background-color:#2EB5C0;
+  border-color: #2EB5C0;
+  color: #FFFFFF;
 }
+
+/* Estilo para o título do site */
+/*1. Branca com Sombra (Clean & Moderna)
+É a escolha padrão de 90% dos sites de turismo atuais (como Airbnb ou Booking). Deixa as fotos dos destinos brilharem.
+
+Cor de Fundo: #FFFFFF
+
+Cor do Texto: #1B365D (Azul Marinho da logo)
+
+Efeito: Adicione um box-shadow leve para dar profundidade.
+
+2. Azul Profundo (Sofisticada & Confiável)
+Se você quer que o site pareça uma agência de viagens premium ou corporativa.
+
+Cor de Fundo: #1B365D (O azul mais escuro presente na logo)
+
+Cor do Texto: #FFFFFF (Branco)
+
+Destaque: Use o turquesa da logo (#2EB5C0) para o efeito de hover nos links.
+
+3. Gradiente Suave (Inovadora)
+Para um visual mais tecnológico e dinâmico, simulando o movimento da seta na sua logo.
+
+Background: linear-gradient(90deg, #1B365D 0%, #2EB5C0 100%)
+
+Cor do Texto: #FFFFFF
+
+Dica: Use a logo em versão totalmente branca (negativa) sobre este fundo.

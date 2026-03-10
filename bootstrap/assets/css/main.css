@@ -31,8 +31,13 @@
   transition: 0.3s;
 }
 
-.card-text {
-  color: #0d5ade;
-  font-weight: bold;
-  margin: 0;
+/* Fundo da legenda */
+.carousel-caption .background {
+  background: rgba(
+    49,
+    48,
+    48,
+    0.5
+  ); /*aplica 0.5 de transparencia na cor (50%)*/
+  border-radius: 8px;
 }

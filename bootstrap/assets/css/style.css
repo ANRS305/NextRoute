@@ -2,6 +2,7 @@
 @import "main.css";
 @import "footer.css";
 
-* {
-  font-family: "Poppins", sans-serif;
+body {
+  background-color: #f4f6fb;
+  font-family: Arial, Helvetica, sans-serif;
 }

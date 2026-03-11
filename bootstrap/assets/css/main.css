@@ -11,8 +11,8 @@
 
 .btn-primary {
   margin-top: 1rem;
-  background-color: #0945ad;
-  border-color: #0945ad;
+  background-color: #08327c;
+  border-color: #08327c;
 }
 
 .btn-primary:hover,
@@ -31,13 +31,27 @@
   transition: 0.3s;
 }
 
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
 /* Fundo da legenda */
 .carousel-caption .background {
-  background: rgba(
-    49,
-    48,
-    48,
-    0.5
-  ); /*aplica 0.5 de transparencia na cor (50%)*/
+  background: rgba(10, 7, 74, 0.5); /*aplica 0.5 de transparencia na cor (50%)*/
   border-radius: 8px;
+}
+
+.card .btn {
+  background: #0d6efd;
+  border: none;
+}
+
+.card .btn:hover {
+  background: #0b5ed7;
 }

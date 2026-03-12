@@ -9,18 +9,6 @@
   object-fit: cover;
 }
 
-.btn-primary {
-  margin-top: 1rem;
-  background-color: #08327c;
-  border-color: #08327c;
-}
-
-.btn-primary:hover,
-.btn-primary:active {
-  background-color: #073078;
-  border-color: #073078;
-}
-
 .card img {
   height: 13rem;
   object-fit: cover;
